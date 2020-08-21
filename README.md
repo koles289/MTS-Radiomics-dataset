@@ -8,6 +8,7 @@ The features are calculated using apriori provided mask of pathologic area in br
   <li>2 - hard core of tumour</li>
   <li>3 - Whole tumour with edem</li>
 </ul>
+<img src="https://github.com/koles289/MTS-Radiomics-dataset/blob/master/ROI.png" width="400">
 The features comes from applying various filters to native images of brain - LoG filter, wavelet transform with various maternal waves and 3D LBP. <br>
 The various calculated features are in zip compressed files:
 <ul>
