@@ -2,13 +2,13 @@
 
 Radiomics datasets created with python library Pyradiomics as part of the master thesis. The calculated features are from <b>BRATS challenge 2019</b>. <br>
 It consist of over 300 samples, but the dataset is quite unbalanced as the number od scans of LGG tumours in dataset is around 70. <br>
-The features are calculated using apriori provided mask of pathologic area in brain with selected different types of pathologic tissue. From this different parts of pathologic tissue are consequently created various  <b>Regions Of Interest (ROI)</b>. In the thesis, we used three ROI (ordered from smallest to largest area):
+The features are calculated using apriori provided mask of pathologic area in brain with selected different types of pathologic tissue. From this different parts of pathologic tissue are consequently created various  <b>Regions Of Interest (ROI)</b>. In the thesis, we used three ROI:<br>
 <ul>
-  <li>1 - Non-enhancing tumopur witch necrotic area</li>
-  <li>2 - hard core of tumour</li>
-  <li>3 - Whole tumour with edem</li>
+  <li>B - Non-enhancing tumopur witch necrotic area</li>
+  <li>C - hard core of tumour</li>
+  <li>D - Whole tumour with edem</li>
 </ul>
-<img src="https://github.com/koles289/MTS-Radiomics-dataset/blob/master/ROI.png" width="400">
+<img src="https://github.com/koles289/MTS-Radiomics-dataset/blob/master/ROI.png" width="800">
 The features comes from applying various filters to native images of brain - LoG filter, wavelet transform with various maternal waves and 3D LBP. <br>
 The various calculated features are in zip compressed files:
 <ul>
