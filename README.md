@@ -8,8 +8,8 @@ The features are calculated using apriori provided mask of pathologic area in br
   <li>2 - hard core of tumour</li>
   <li>3 - Whole tumour with edem</li>
 </ul>
-The features comes from applying various filters to native images of brain - LoG filter, wavelet transform with various maternal waves and 3D LBP.</b>.
-The various calculated fetures are in zip compressed files:
+The features comes from applying various filters to native images of brain - LoG filter, wavelet transform with various maternal waves and 3D LBP. <br>
+The various calculated features are in zip compressed files:
 <ul>
   <li>Shape.zip - shape features calculated from native images and all three ROI</li>
   <li>bior15wave_log01108.zip - Features calculated using wavelet transform bior1.5 or LoG with alpha values of 0.11 or 0.8</li>
